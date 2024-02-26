@@ -1,0 +1,91 @@
+{
+  "buildFiles": [
+    "/home/luca/StudioProjects/NeuralNetworkDemo/app/src/main/cpp/CMakeLists.txt",
+    "/home/luca/StudioProjects/NeuralNetworkDemo/app/src/main/cpp/src/CMakeLists.txt",
+    "/home/luca/StudioProjects/NeuralNetworkDemo/app/src/main/cpp/third_party/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/luca/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/luca/StudioProjects/NeuralNetworkDemo/app/.cxx/Debug/1k4t4f61/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/luca/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/luca/StudioProjects/NeuralNetworkDemo/app/.cxx/Debug/1k4t4f61/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "sentencepiece::@145eef247bfb46b6828c": {
+      "artifactName": "sentencepiece",
+      "abi": "arm64-v8a",
+      "output": "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece.so",
+      "runtimeFiles": []
+    },
+    "spm_encode::@145eef247bfb46b6828c": {
+      "artifactName": "spm_encode",
+      "abi": "arm64-v8a",
+      "output": "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/spm_encode",
+      "runtimeFiles": [
+        "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece.so"
+      ]
+    },
+    "sentencepiece-static::@145eef247bfb46b6828c": {
+      "artifactName": "sentencepiece-static",
+      "abi": "arm64-v8a",
+      "output": "/home/luca/StudioProjects/NeuralNetworkDemo/app/.cxx/Debug/1k4t4f61/arm64-v8a/src/libsentencepiece.a",
+      "runtimeFiles": []
+    },
+    "sentencepiece_train-static::@145eef247bfb46b6828c": {
+      "artifactName": "sentencepiece_train-static",
+      "abi": "arm64-v8a",
+      "output": "/home/luca/StudioProjects/NeuralNetworkDemo/app/.cxx/Debug/1k4t4f61/arm64-v8a/src/libsentencepiece_train.a",
+      "runtimeFiles": []
+    },
+    "spm_normalize::@145eef247bfb46b6828c": {
+      "artifactName": "spm_normalize",
+      "abi": "arm64-v8a",
+      "output": "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/spm_normalize",
+      "runtimeFiles": [
+        "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece_train.so",
+        "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece.so"
+      ]
+    },
+    "spm_train::@145eef247bfb46b6828c": {
+      "artifactName": "spm_train",
+      "abi": "arm64-v8a",
+      "output": "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/spm_train",
+      "runtimeFiles": [
+        "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece_train.so",
+        "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece.so"
+      ]
+    },
+    "sentencepiece_train::@145eef247bfb46b6828c": {
+      "artifactName": "sentencepiece_train",
+      "abi": "arm64-v8a",
+      "output": "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece_train.so",
+      "runtimeFiles": [
+        "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece.so"
+      ]
+    },
+    "spm_decode::@145eef247bfb46b6828c": {
+      "artifactName": "spm_decode",
+      "abi": "arm64-v8a",
+      "output": "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/spm_decode",
+      "runtimeFiles": [
+        "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece.so"
+      ]
+    },
+    "spm_export_vocab::@145eef247bfb46b6828c": {
+      "artifactName": "spm_export_vocab",
+      "abi": "arm64-v8a",
+      "output": "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/spm_export_vocab",
+      "runtimeFiles": [
+        "/home/luca/StudioProjects/NeuralNetworkDemo/app/build/intermediates/cxx/Debug/1k4t4f61/obj/arm64-v8a/libsentencepiece.so"
+      ]
+    }
+  }
+}

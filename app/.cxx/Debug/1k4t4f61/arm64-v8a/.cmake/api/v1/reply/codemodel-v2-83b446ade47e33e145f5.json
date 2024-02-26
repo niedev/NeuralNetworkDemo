@@ -1,0 +1,163 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b828a2889f7142f21143.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-d231a00408b59236ea22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "third_party",
+					"jsonFile" : "directory-third_party-Debug-9b836fc236528aa76e21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "sentencepiece",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "sentencepiece::@145eef247bfb46b6828c",
+					"jsonFile" : "target-sentencepiece-Debug-f7c123d167e5c5ef5c82.json",
+					"name" : "sentencepiece",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sentencepiece-static::@145eef247bfb46b6828c",
+					"jsonFile" : "target-sentencepiece-static-Debug-8ced1b40038fcf4e9514.json",
+					"name" : "sentencepiece-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sentencepiece_train::@145eef247bfb46b6828c",
+					"jsonFile" : "target-sentencepiece_train-Debug-f67ce0ce3a63e454b76c.json",
+					"name" : "sentencepiece_train",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sentencepiece_train-static::@145eef247bfb46b6828c",
+					"jsonFile" : "target-sentencepiece_train-static-Debug-48e7558e48fc76901742.json",
+					"name" : "sentencepiece_train-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spm_decode::@145eef247bfb46b6828c",
+					"jsonFile" : "target-spm_decode-Debug-97764694bcb832fe0cb6.json",
+					"name" : "spm_decode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spm_encode::@145eef247bfb46b6828c",
+					"jsonFile" : "target-spm_encode-Debug-2bc4f409f802a544ba62.json",
+					"name" : "spm_encode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spm_export_vocab::@145eef247bfb46b6828c",
+					"jsonFile" : "target-spm_export_vocab-Debug-9348257d26d53d79d099.json",
+					"name" : "spm_export_vocab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spm_normalize::@145eef247bfb46b6828c",
+					"jsonFile" : "target-spm_normalize-Debug-5b6bc9df555519951263.json",
+					"name" : "spm_normalize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spm_train::@145eef247bfb46b6828c",
+					"jsonFile" : "target-spm_train-Debug-86e290b58aef38aa5437.json",
+					"name" : "spm_train",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/luca/StudioProjects/NeuralNetworkDemo/app/.cxx/Debug/1k4t4f61/arm64-v8a",
+		"source" : "/home/luca/StudioProjects/NeuralNetworkDemo/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
