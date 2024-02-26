@@ -5,3 +5,5 @@ download/models/ folder, the name of the model needs to be specified in Translat
 
 The Translator object is created (and the models loaded) when the send arrow is clicked without any message inserted, when the loading is finished a Toast notification will appear and you can start writing something
 in english, and when you click the send buttom the translation will be done (in italian) by the translator and will appear as a message received in the app.
+
+All models are in releases
